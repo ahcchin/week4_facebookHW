@@ -12,6 +12,8 @@
 		880528A119AEAA3500EADD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8805289F19AEAA3500EADD1D /* Main.storyboard */; };
 		880528A319AEAA3500EADD1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880528A219AEAA3500EADD1D /* Images.xcassets */; };
 		880528AF19AEAA3500EADD1D /* facebookHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880528AE19AEAA3500EADD1D /* facebookHWTests.swift */; };
+		882EF5BA19B619F9000C7394 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882EF5B919B619F9000C7394 /* PhotoViewController.swift */; };
+		88B1D04F19B6A4A20084678F /* TransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1D04E19B6A4A20084678F /* TransitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		880528A819AEAA3500EADD1D /* facebookHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880528AD19AEAA3500EADD1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880528AE19AEAA3500EADD1D /* facebookHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookHWTests.swift; sourceTree = "<group>"; };
+		882EF5B919B619F9000C7394 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		88B1D04E19B6A4A20084678F /* TransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				8805289B19AEAA3500EADD1D /* AppDelegate.swift */,
 				8805289D19AEAA3500EADD1D /* ViewController.swift */,
 				8805289F19AEAA3500EADD1D /* Main.storyboard */,
+				88B1D04E19B6A4A20084678F /* TransitionController.swift */,
+				882EF5B919B619F9000C7394 /* PhotoViewController.swift */,
 				880528A219AEAA3500EADD1D /* Images.xcassets */,
 				8805289919AEAA3500EADD1D /* Supporting Files */,
 			);
@@ -208,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B1D04F19B6A4A20084678F /* TransitionController.swift in Sources */,
 				8805289E19AEAA3500EADD1D /* ViewController.swift in Sources */,
 				8805289C19AEAA3500EADD1D /* AppDelegate.swift in Sources */,
+				882EF5BA19B619F9000C7394 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,7 @@
 				880528B419AEAA3500EADD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880528B519AEAA3500EADD1D /* Build configuration list for PBXNativeTarget "facebookHWTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				880528B719AEAA3500EADD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
